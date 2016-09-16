@@ -6,3 +6,31 @@
 ssh root@adrastea.sco.alma.cl
 #+END_SRC
 
+2. Descargar tar con release del branch a hacer deployment
+
+3. Conectar por SSH a la máquina correspondiente al componente a desplegar
+
+#+BEGIN_SRC sh
+ssh root@eduarda.sco.alma.cl
+#+END_SRC
+
+4. Hacer backup de aplicación previa
+
+#+BEGIN_SRC sh
+cd /usr/local/tomcat
+cp -rp webapps webapps-$(date +%Y%m%d)
+#+END_SRC
+
+5. Bajar servidor Tomcat
+
+#+BEGIN_SRC sh
+supervisorctl stop tomcat
+#+END_SRC
+
+6. Eliminar archivos de aplicación anterior
+
+cd webapps
+rm -rf *
+
+7. Copiar desde máquina de configuraciones archivo WAR de aplicación
+
