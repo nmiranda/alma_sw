@@ -34,3 +34,9 @@
     rm -rf *;
 
 1.  Copiar desde máquina de configuraciones archivo WAR de aplicación
+
+    rsync -a root@adrastea.sco.alma.cl:/alma/ACS-2016.5/ACSSW-201608-CYCLE4-OFF-B-2016-09-15-19-00-00/lib/cas-server-webapp.war .
+
+1.  Lanzar servidor Tomcat
+
+    supervisorctl start tomcat
