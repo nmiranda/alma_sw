@@ -1,0 +1,8 @@
+* Cómo hacer deployment de herramientas offline en preproducción
+
+1. Conectar por SSH a máquina de configuraciones
+
+#+BEGIN_SRC sh
+ssh root@adrastea.sco.alma.cl
+#+END_SRC
+
