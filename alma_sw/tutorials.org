@@ -16,7 +16,7 @@ ssh root@eduarda.sco.alma.cl
 
 4. Hacer backup de aplicación previa
 
-#+BEGIN_SRC sh
+#+BEGIN_SRC shell
 cd /usr/local/tomcat;
 cp -rp webapps webapps-$(date +%Y%m%d);
 #+END_SRC
