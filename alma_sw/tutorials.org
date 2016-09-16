@@ -29,8 +29,10 @@ supervisorctl stop tomcat
 
 6. Eliminar archivos de aplicación anterior
 
+#+BEGIN_SRC sh
 cd webapps
-rm -rf *
+rm -rf * 
+#+END_SRC
 
 7. Copiar desde máquina de configuraciones archivo WAR de aplicación
 
