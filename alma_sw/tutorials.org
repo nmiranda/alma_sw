@@ -17,8 +17,8 @@ ssh root@eduarda.sco.alma.cl
 4. Hacer backup de aplicación previa
 
 #+BEGIN_SRC sh
-cd /usr/local/tomcat
-cp -rp webapps webapps-$(date +%Y%m%d)
+cd /usr/local/tomcat;
+cp -rp webapps webapps-$(date +%Y%m%d);
 #+END_SRC
 
 5. Bajar servidor Tomcat
@@ -30,8 +30,8 @@ supervisorctl stop tomcat
 6. Eliminar archivos de aplicación anterior
 
 #+BEGIN_SRC sh
-cd webapps
-rm -rf * 
+cd webapps;
+rm -rf *;
 #+END_SRC
 
 7. Copiar desde máquina de configuraciones archivo WAR de aplicación

@@ -21,8 +21,8 @@
 
 1.  Hacer backup de aplicación previa
 
-    cd /usr/local/tomcat
-    cp -rp webapps webapps-$(date +%Y%m%d)
+    cd /usr/local/tomcat;
+    cp -rp webapps webapps-$(date +%Y%m%d);
 
 1.  Bajar servidor Tomcat
 
@@ -30,7 +30,7 @@
 
 1.  Eliminar archivos de aplicación anterior
 
-    cd webapps
-    rm -rf *
+    cd webapps;
+    rm -rf *;
 
 1.  Copiar desde máquina de configuraciones archivo WAR de aplicación
