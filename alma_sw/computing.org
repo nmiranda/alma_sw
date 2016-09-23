@@ -1,12 +1,13 @@
 * ALMA Software lingo
 - ACACOR :: (O ACA Correlator) Correlador más pequeño que realiza FFT sobre los datos obtenidos por las antenas.
 - ADC :: ALMA Department of Computing
+- ALMA Management Team :: Entidad que controla a los ICT en operaciones.
 - Ambiente :: Sistema que emula todas las características de un servidor para el deployment de software. Anteriormente se utilizaban máquinas virtuales, actualmente se está pasando a hacer uso de Docker.
 - Ambiente de Pre-producción :: Ambiente en el cual se prueba el software offline en una fase final, con bases de datos actualizadas, para luego ser desplegadas en producción.
 - AOD :: Astronomer on Duty
 - AOS :: Array Operations Site
 - APE :: Nuevo ambiente de producción online.
-- ARC :: ALMA Regional Center (Europe, North America and East Asia)
+- ARC :: ALMA Regional Center (Europe, North America and East Asia). Se encarga de presentación de datos.
 - ARCHIVE :: Subsistema encargado del manejo de datos asociados a propuestas y observaciones astronómicas
 - Bulk data :: Canal de transmisión de datos masivos. Utiliza TCP o UDP. Está basado en Data Distribution Service (DDS).
 - Candidate :: Release de software candidato a ir a producción.
@@ -15,13 +16,15 @@
 - Ciclo de release :: Ciclo 3 se encuentra ya en producción (deployed). Ciclo 4 estará estable en octubre. A partir del ciclo 5 se realizarán releases incrementales.
 - Ciclos :: Puede referirse a etapa del ciclo de vida de software o etapa del proceso de observación astronómica. Ambos estan relacionados, ya que el software debe estar disponible para ciertos milestones del ciclo de observación.
 - Dashboard :: Aplicación offline de apoyo a operaciones. Desarrollada por el INRIA.
-- Data Distribution Service (DDS) :: estándar de transmisión de datos hecho por los creadores de CORBA.
+- DDS :: Data Distribution Service. Estándar de transmisión de datos hecho por los creadores de CORBA.
 - Deployment :: Existe de producción y de pre-producción.
 - Docker :: Sistema de deployment de aplicaciones Linux dentro de contenedores de software.
 - DSACore :: Algoritmo de scheduling que corre en un servidor. Se usa tanto en online como en offline.
 - DSO :: Department of Science Operations
 - FSR :: Full System Restart
-- ICT :: Integrated Computing Team
+- GNS :: General Network Service. Es un gateway para la STE. Tiene DHCP, etc.
+- ICT :: Integrated Computing Team. Está compuesto por los ICT regionales (EA, NA, EU) y el grupo de software dentro del JAO Department of Computing (ADC).
+- IRM :: Integration and Release Management. Grupo perteneciente a ICT.
 - JAO :: Joint ALMA Observatory
 - NGAS :: Next Generation Archive System
 - OBOPS :: Susbsistema que agrupa herramientas, mayoritariamente offline, para manejo de usuarios, propuestas y ciclos de observación.
@@ -33,8 +36,10 @@
 - SCCB :: Software Change Control Board
 - SCHEDULING :: Subsistema encargado de administrar los tiempos de observación de cada proyecto.
 - SCO :: Santiago Central Office
+- SoftOps :: Software Operations.
 - SSR :: Scripts del área de ciencias
 - STE :: Antiguo ambiente de producción online.
+- Subsistema :: Una parte en particular del software de ALMA. Cada grupo de ICT de cada ARC es responsable de uno o más subsistemas.
 - TelCal :: Telescope Calibration
 - TMCDB :: Telescope Monitoring and Configuration Database
 - WAR :: Formato de paquetes de aplicaciones web de Java. Se utilizan para los componentes del sistema offline.
