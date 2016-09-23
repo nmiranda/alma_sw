@@ -1,5 +1,6 @@
 * ALMA Software lingo
 - ACACOR :: (O ACA Correlator) Correlador más pequeño que realiza FFT sobre los datos obtenidos por las antenas.
+- ACS :: ALMA Common Software
 - ADC :: ALMA Department of Computing
 - ALMA Management Team :: Entidad que controla a los ICT en operaciones.
 - Ambiente :: Sistema que emula todas las características de un servidor para el deployment de software. Anteriormente se utilizaban máquinas virtuales, actualmente se está pasando a hacer uso de Docker.
@@ -15,6 +16,7 @@
 - CDP :: Correlator Data Processor. Está constituido por un servidor Master y nodos, los cuales se comunican mediante bulk data. Utiliza de comunicación unicast de nodos a master.
 - Ciclo de release :: Ciclo 3 se encuentra ya en producción (deployed). Ciclo 4 estará estable en octubre. A partir del ciclo 5 se realizarán releases incrementales.
 - Ciclos :: Puede referirse a etapa del ciclo de vida de software o etapa del proceso de observación astronómica. Ambos estan relacionados, ya que el software debe estar disponible para ciertos milestones del ciclo de observación.
+- Common Infrastructure :: Grupo de ICT encargado de aplicaciones de uso común tales como ACS, Bulk Data, Source Catalog, TMCDB, etc.
 - Dashboard :: Aplicación offline de apoyo a operaciones. Desarrollada por el INRIA.
 - DDS :: Data Distribution Service. Estándar de transmisión de datos hecho por los creadores de CORBA.
 - Deployment :: Existe de producción y de pre-producción.
