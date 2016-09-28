@@ -12,6 +12,7 @@
 - AOS :: Array Operations Site
 - APE :: Nuevo ambiente de producción online.
 - APO ::
+- APRC :: 
 - ARC :: ALMA Regional Center (Europe, North America and East Asia). Se encarga de presentación de datos.
 - ARCHIVE :: Subsistema encargado del manejo de datos asociados a propuestas y observaciones astronómicas
 - Archive Query :: Aplicación offline que provee una interfaz para queusuarios externos realicen consultas sobre la base de datos de ALMA.
@@ -37,7 +38,7 @@
 - Docker :: Sistema de deployment de aplicaciones Linux dentro de contenedores de software.
 - DSACore :: Algoritmo de scheduling que corre en un servidor. Se usa tanto en online como en offline.
 - DSO :: Department of Science Operations
-- FSR :: Full System Restart
+- FSR :: Full System Restart. STE tool that cleans systems, restarts daemons and reboots ABMs. 
 - GAS :: General Application Server. Contiene los servicios de ACS con sus respectivos contenedores y CORBA.
 - GNS :: General Network Service. Es un gateway para la STE. Tiene DHCP, etc.
 - Harvester :: Aplicación offline que permite hacer peticiones y queries a archivos XML.
@@ -55,12 +56,13 @@
 - Online :: Sistema que agrupa todos aquellos componentes de software que son críticos para el funcionamiento del radiotelescopio.
 - OSF :: ALMA Operations Support Facility
 - OUS :: 
+- PDU ::
 - Ph1m :: Phase one manager. Aplicación offline encargada de generar un ranking de proyectos a ser observados.
 - PI ::
 - ProTrack :: Aplicación offline encargada de hacer seguimiento al estado de una propuesta de observación.
 - PRTS :: Problem Reporting Ticket System
 - QuickLook :: 
-- Release :: En offline son más frecuentes que en online.
+- Release :: En ALMA los releases de software son incrementales, aproximadamente cada 1.5 meses. En offline son más frecuentes que en online.
 - RH :: Request Handler. Aplicación offline que provee mecanismos para manejar peticiones sobre productos de ciencia.
 - SB :: Scheduling Block. Unidad mínima de observación en ALMA.i
 - Sc :: Aplicación offline que provee una interfaz web para realizar consultas en la base de datos de ALMA
