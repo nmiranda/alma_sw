@@ -1,4 +1,4 @@
-a* ALMA Software lingo
+* ALMA Software lingo
 - ABM :: ALMA Bus Master. Computers that control antennas.
 - ACACOR :: (O ACA Correlator) Correlador más pequeño que realiza FFT sobre los datos obtenidos por las antenas.
 - ACC :: ALMA Central Computer
