@@ -2,21 +2,22 @@
 - ABM :: ALMA Bus Monitor. Computers that control antennas.
 - ACACOR :: (O ACA Correlator) Correlador más pequeño que realiza FFT sobre los datos obtenidos por las antenas.
 - ACS :: ALMA Common Software
+- ACSE :: 
 - ADC :: ALMA Department of Computing
 - ADE (planner) ::
 - ALMA Management Team :: Entidad que controla a los ICT en operaciones.
 - Ambiente :: Sistema que emula todas las características de un servidor para el deployment de software. Anteriormente se utilizaban máquinas virtuales, actualmente se está pasando a hacer uso de Docker.
 - Ambiente de Pre-producción :: Ambiente en el cual se prueba el software offline en una fase final, con bases de datos actualizadas, para luego ser desplegadas en producción.
-- AMG ::
+- AMG :: Array Management Group
 - AOD :: Astronomer on Duty
 - AOS :: Array Operations Site
-- APE :: Nuevo ambiente de producción online.
+- APE :: ALMA Production Environment. Nuevo ambiente de producción online.
 - APO ::
 - APRC :: 
 - ARC :: ALMA Regional Center (Europe, North America and East Asia). Se encarga de presentación de datos.
 - ARCHIVE :: Subsistema encargado del manejo de datos asociados a propuestas y observaciones astronómicas
 - Archive Query :: Aplicación offline que provee una interfaz para queusuarios externos realicen consultas sobre la base de datos de ALMA.
-- Array ::  
+- Array :: Grupo de antenas que se encuentran realizando interferometría simultáneamente.
 - Baseline Correlator ::
 - Bulk data :: Canal de transmisión de datos masivos. Utiliza TCP o UDP. Está basado en Data Distribution Service (DDS).
 - Candidate :: Release de software candidato a ir a producción.
@@ -55,20 +56,23 @@
 - OMC ::
 - Online :: Sistema que agrupa todos aquellos componentes de software que son críticos para el funcionamiento del radiotelescopio.
 - OSF :: ALMA Operations Support Facility
+- OT :: Observing Tool.
 - OUS :: 
+- P2G :: Phase 2 Group
 - PDU ::
 - Ph1m :: Phase one manager. Aplicación offline encargada de generar un ranking de proyectos a ser observados.
-- PI ::
+- PI :: Principal Investigator.
 - ProTrack :: Aplicación offline encargada de hacer seguimiento al estado de una propuesta de observación.
 - PRTS :: Problem Reporting Ticket System
 - QuickLook :: 
 - Release :: En ALMA los releases de software son incrementales, aproximadamente cada 1.5 meses. En offline son más frecuentes que en online.
 - RH :: Request Handler. Aplicación offline que provee mecanismos para manejar peticiones sobre productos de ciencia.
-- SB :: Scheduling Block. Unidad mínima de observación en ALMA.i
+- SB :: Scheduling Block. Unidad mínima de observación en ALMA.
 - Sc :: Aplicación offline que provee una interfaz web para realizar consultas en la base de datos de ALMA
 - SCCB :: Software Change Control Board
 - SCHEDULING :: Subsistema encargado de administrar los tiempos de observación de cada proyecto.
 - SCO :: Santiago Central Office
+- SLT :: Shiftlog Tool
 - SnooPI :: Aplicación offline encargada de proveer una vista pública de ProTrack, pensada para PIs más bien que para staff de ALMA.
 - SoftOps :: Software Operations.
 - Sourcecat :: Aplicación offline encargada de proveer una interfaz xmlrpc para realizar consultas a la base de datos de ALMA
@@ -86,3 +90,5 @@
 - WAR :: Formato de paquetes de aplicaciones web de Java. Se utilizan para los componentes del sistema offline.
 - Webaqua :: Aplicación offline encargada de asegurar la calidad de los proyectos.
 - Webshiftlog :: Aplicación offline encargada de hacer consultas a base de datos para obtener el desarrollo de un
+- WSLT :: Webshiftlog Tool
+- CLO :: Central Local Oscillator.
