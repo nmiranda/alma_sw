@@ -57,7 +57,7 @@
 - Offline :: Sistema que agrupa todos aquellos componentes de software que no son críticos para el funcionamiento del radiotelescopio. La mayoría de las aplicaciones web pertenecen al sistema offline.
 - OMC ::
 - Online :: Sistema que agrupa todos aquellos componentes de software que son críticos para el funcionamiento del radiotelescopio.
-- OSF :: ALMA Operations Support Facility
+- OSF :: ALMA Operations Support Facilities
 - OT :: Observing Tool.
 - OUS :: 
 - P2G :: Phase 2 Group
@@ -71,7 +71,7 @@
 - RH :: Request Handler. Aplicación offline que provee mecanismos para manejar peticiones sobre productos de ciencia.
 - SB :: Scheduling Block. Unidad mínima de observación en ALMA.
 - Sc :: Aplicación offline que provee una interfaz web para realizar consultas en la base de datos de ALMA
-- SCCB :: Software Change Control Board
+- SCCB :: Software Change Control Board. Sistema de release de hotfixes realizados a código en producción.
 - SCHEDULING :: Subsistema encargado de administrar los tiempos de observación de cada proyecto.
 - SCO :: Santiago Central Office
 - SLT :: Shiftlog Tool
