@@ -13,7 +13,7 @@
 - AOD :: Astronomer on Duty
 - AOS :: Array Operations Site
 - APE :: ALMA Production Environment. Nuevo ambiente de producción online.
-- APO ::
+- APO :: Archive Pipeline Operations
 - APRC :: 
 - ARC :: ALMA Regional Center (Europe, North America and East Asia). Se encarga de presentación de datos.
 - ARCHIVE :: Subsistema encargado del manejo de datos asociados a propuestas y observaciones astronómicas
