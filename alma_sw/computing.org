@@ -15,9 +15,9 @@
 - APE :: ALMA Production Environment. Nuevo ambiente de producción online.
 - APO :: Archive Pipeline Operations
 - APRC :: 
-- ARC :: ALMA Regional Center (Europe, North America and East Asia). Se encarga de presentación de datos.
+- ARC :: ALMA Regional Center (Europe, North America and East Asia). Se encarga de la presentación de datos.
 - ARCHIVE :: Subsistema encargado del manejo de datos asociados a propuestas y observaciones astronómicas
-- Archive Query :: Aplicación offline que provee una interfaz para queusuarios externos realicen consultas sobre la base de datos de ALMA.
+- Archive Query :: Aplicación offline que provee una interfaz para que usuarios externos realicen consultas sobre la base de datos de ALMA.
 - Array :: Grupo de antenas que se encuentran realizando interferometría simultáneamente.
 - Baseline Correlator ::
 - Bulk data :: Canal de transmisión de datos masivos. Utiliza TCP o UDP. Está basado en Data Distribution Service (DDS).
@@ -43,7 +43,7 @@
 - DSO :: Department of Science Operations
 - FSR :: Full System Restart. STE tool that cleans systems, restarts daemons and reboots ABMs. 
 - GAS :: General Application Server. Contiene los servicios de ACS con sus respectivos contenedores y CORBA.
-- GNS :: General Network Service. Es un gateway para la STE. Tiene DHCP, etc.
+- GNS :: General Network Service. Es un gateway para la STE. Tiene DHCP, etc. Es aquí donde se deben realizar cambios que se deseen aplicar con SynchronizeBuild.
 - Harvester :: Aplicación offline que permite hacer peticiones y queries a archivos XML.
 - ICD :: Interface Control Document. Provides interface and behavior definition for components.
 - ICT :: Integrated Computing Team. Está compuesto por los ICT regionales (EA, NA, EU) y el grupo de software dentro del JAO Department of Computing (ADC).
@@ -55,7 +55,7 @@
 - Observing Tool :: Aplicación offline hecha en Java, cuya labor es proponer observaciones y generar Scheduling Blocks.
 - OBSPREP :: Subsistema que agrupa herramientas para el manejo de propuestas de observación enviadas.
 - Offline :: Sistema que agrupa todos aquellos componentes de software que no son críticos para el funcionamiento del radiotelescopio. La mayoría de las aplicaciones web pertenecen al sistema offline.
-- OMC ::
+- OMC :: Operations Monitoring and Control. Herramienta utilizada para las observaciones. Posee muchas funcionalidades utilizadas previa, durante y posterior a las observaciones.
 - Online :: Sistema que agrupa todos aquellos componentes de software que son críticos para el funcionamiento del radiotelescopio.
 - OSF :: ALMA Operations Support Facilities
 - OT :: Observing Tool.
