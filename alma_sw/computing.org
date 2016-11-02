@@ -51,6 +51,7 @@
 - IRM :: Integration and Release Management. Grupo perteneciente a ICT.
 - JAO :: Joint ALMA Observatory
 - NGAS :: Next Generation Archive System
+- nctest :: Notification Channel Tests
 - OBOPS :: Susbsistema que agrupa herramientas, mayoritariamente offline, para manejo de usuarios, propuestas y ciclos de observación.
 - Observing Tool :: Aplicación offline hecha en Java, cuya labor es proponer observaciones y generar Scheduling Blocks.
 - OBSPREP :: Subsistema que agrupa herramientas para el manejo de propuestas de observación enviadas.
