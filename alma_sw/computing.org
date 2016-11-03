@@ -12,6 +12,7 @@
 - AMG :: Array Management Group
 - AOD :: Astronomer on Duty
 - AOS :: Array Operations Site
+- APA :: AQUA Pipeline Agent.
 - APE :: ALMA Production Environment. Nuevo ambiente de producción online.
 - APO :: Archive Pipeline Operations
 - APRC :: 
@@ -19,6 +20,7 @@
 - ARCHIVE :: Subsistema encargado del manejo de datos asociados a propuestas y observaciones astronómicas
 - Archive Query :: Aplicación offline que provee una interfaz para que usuarios externos realicen consultas sobre la base de datos de ALMA.
 - Array :: Grupo de antenas que se encuentran realizando interferometría simultáneamente.
+- ASDM :: ALMA Science Data Model. Formato de datos reducidos de ALMA.
 - Baseline Correlator ::
 - Bulk data :: Canal de transmisión de datos masivos. Utiliza TCP o UDP. Está basado en Data Distribution Service (DDS).
 - Candidate :: Release de software candidato a ir a producción.
@@ -31,7 +33,7 @@
 - CLO :: Central Local Oscillator.
 - COB ::
 - COJ ::
-- Common Infrastructure :: Grupo de ICT encargado de aplicaciones de uso común tales como ACS, Bulk Data, Source Catalog, TMCDB, etc.
+- Common Infrastructure :: Grupo de ICT encargado de aplicaciones de uso común tales como ACS, Bulk Data, Source Catalogue, TMCDB, etc.
 - CRC :: Consoles.
 - Dashboard :: Aplicación offline de apoyo a operaciones. Desarrollada por el INRIA.
 - Data Capturer ::
@@ -50,7 +52,7 @@
 - IR (ticket) ::
 - IRM :: Integration and Release Management. Grupo perteneciente a ICT.
 - JAO :: Joint ALMA Observatory
-- NGAS :: Next Generation Archive System
+- NGAS :: Next Generation Archive System. Guarda los datos RAW de observaciones.
 - nctest :: Notification Channel Tests
 - OBOPS :: Susbsistema que agrupa herramientas, mayoritariamente offline, para manejo de usuarios, propuestas y ciclos de observación.
 - Observing Tool :: Aplicación offline hecha en Java, cuya labor es proponer observaciones y generar Scheduling Blocks.
@@ -60,7 +62,7 @@
 - Online :: Sistema que agrupa todos aquellos componentes de software que son críticos para el funcionamiento del radiotelescopio.
 - OSF :: ALMA Operations Support Facilities
 - OT :: Observing Tool.
-- OUS :: 
+- OUS :: Observation Unit Set. 
 - P2G :: Phase 2 Group
 - PDU ::
 - Ph1m :: Phase one manager. Aplicación offline encargada de generar un ranking de proyectos a ser observados.
