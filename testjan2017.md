@@ -21,9 +21,10 @@
 ## Obops
 ### spavez
 * AquaPipelineAgent 	
-  * Where to copy it?
+  * Changed
+  * https://testjan2017.asa-test.alma.cl/apa/
 * Reporting
-  * Container not running
+  * Skipped
 * Dashboard backend 
   * Changed
   * https://testjan2017.asa-test.alma.cl/dashboard2-frontend/
