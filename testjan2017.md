@@ -3,8 +3,8 @@
 ## Archive
 
 * Sourcecat
-  > https://testjan2017.asa-test.alma.cl/sc/
-  > Changed OSF SCO
+> https://testjan2017.asa-test.alma.cl/sc/
+> Changed OSF SCO
 * Archive Query
   > https://testjan2017.asa-test.alma.cl/aq
   > Changed
