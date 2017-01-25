@@ -35,3 +35,10 @@
   * https://testjan2017.asa-test.alma.cl/snoopi
   
   ### nmiranda
+* CAS OSF
+  * https://testjan2017.asa-test.alma.cl/osfcas
+  * Changed
+* CAS SCO
+  * https://testjan2017.asa-test.alma.cl/cas
+  * New version not working. Kept old version.
+* 
