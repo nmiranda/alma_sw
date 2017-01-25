@@ -41,4 +41,21 @@
 * CAS SCO
   * https://testjan2017.asa-test.alma.cl/cas
   * New version not working. Kept old version.
-* 
+* Ph1m
+  * https://testjan2017.asa-test.alma.cl/ph1m
+  * Changed
+* User Registration
+  * https://dec2016.asa-test.alma.cl/UserRegistration
+  * Changed
+* User Registry
+  * https://dec2016.asa-test.alma.cl/UserRegistry
+  * Changed
+* WebAqua
+  * https://dec2016.asa-test.alma.cl/webaqua
+  * Changed
+* WebShiftLog
+  * https://dec2016.asa-test.alma.cl/webshiftlog
+  * Changed
+* Science Portal Rest Server
+  * https://dec2016.asa-test.alma.cl/sprs
+  * Changed
