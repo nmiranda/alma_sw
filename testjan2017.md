@@ -1,4 +1,4 @@
-# Copy archive wars
+# Test Jan 2017 update
 
 ## Archive
 
@@ -19,7 +19,7 @@
   * https://testjan2017.asa-test.alma.cl/datatracker
   
 ## Obops
-
+### spavez
 * AquaPipelineAgent 	
   * Where to copy it?
 * Reporting
@@ -33,3 +33,5 @@
 * Snoopi
   * Changed
   * https://testjan2017.asa-test.alma.cl/snoopi
+  
+  ### nmiranda
